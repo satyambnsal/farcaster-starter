@@ -7,7 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return res.status(400).send('Missing Score')
     }
 
-    const imageUrl = `${process.env['HOST']}/api/image-v2?score=${score}`
+    const imageUrl = `${process.env['HOST']}api/image-v2?score=${score}`
 
     res.setHeader('Content-Type', 'text/html')
     res.status(200).send(`
