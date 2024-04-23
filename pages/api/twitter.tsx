@@ -14,11 +14,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       <!DOCTYPE html>
       <html>
         <head>
-          <title>RYO Progress</title>
-          <meta property="og:title" content="RYO Progress">
+          <title>RYO Game</title>
+          <meta property="og:title" content="RYO Game">
           <meta property="og:image" content="${imageUrl}">
           <meta property="og:description" content="Check out my progress!" />
-          <meta property="og:url" content="https://farcaster-starter.vercel.app/" />
+          <meta property="og:url" content="https://ryo.game/" />
           <meta name="twitter:card" content="summary_large_image" />
         </head>
         <body>
